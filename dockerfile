@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos7.9.2009
 RUN yum install git -y
 RUN yum install httpd -y
 RUN yum install wget -y
