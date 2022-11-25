@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:latest
 RUN yum install git -y
 RUN yum install httpd -y
 RUN yum install wget -y
